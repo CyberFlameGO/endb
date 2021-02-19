@@ -1,5 +1,5 @@
 {
-  "name": "endb",
+  "name": "endb-main",
   "version": "1.3.0",
   "description": "Key-value storage for multiple databases",
   "main": "dist/index.js",

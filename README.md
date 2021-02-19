@@ -6,18 +6,18 @@
 ## Installing
 Using npm:
 ```
-$ npm install @BluSpring/endb
+$ npm install endb-main
 ```
 
 Using yarn:
 ```
-$ yarn add @BluSpring/endb
+$ yarn add endb-main
 ```
 
 ## Usage
 
 ```javascript
-const Endb = require('endb');
+const Endb = require('endb-main');
 
 const endb = new Endb();
 const endb = new Endb({
@@ -25,6 +25,16 @@ const endb = new Endb({
   namespace: 'cache',
 });
 ```
+
+## Database Support
+|  Database  |         Endb Adapter        |
+| ---------- | --------------------------- |
+|    SQL     |    [BluSpring/endb-sql](https://npmjs.com/package/endb-sql)   |
+|   MySQL    |  [BluSpring/endb-mysql](https://npmjs.com/package/endb-mysql)   |
+|   SQlite   |  [BluSpring/endb-sqlite](https://npmjs.com/package/endb-sqlite)  |
+|  MongoDB   |  [BluSpring/endb-mongo](https://npmjs.com/package/endb-mongo)   |
+| PostgreSQL | [BluSpring/endb-postgres](https://npmjs.com/package/endb-postgres) |
+|   Redis    |   [BluSpring/endb-redis](https://npmjs.com/package/endb-redis)  |
 
 ## What happened to the original `endb`?
   I don't know what happened. The original developer, [`chroventer`](https://github.com/chroventer) disappeared without a trace (his GitHub account seems to have been deleted too), so I decided to recover the files myself from what remained on NPM. 
